@@ -1,0 +1,39 @@
+@import '../../global.scss';
+
+.hero {
+    background-color: #E5E5E5;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    &__catchphrase {
+        margin-top: 5%;
+        font-size: 1.4rem;
+    }
+   
+    &__feature {
+        height: 500px;
+        width: 800px;
+        border-radius: 5px;
+        background-color: #F5F5F5;
+        margin-top: 5%;
+        box-shadow: 5px 5px 5px rgba(31, 31, 31, 0.2);
+    }
+    &__cta {
+        background-color: #e18e08;
+        color: #F5F5F5;
+        border-radius: 5px;
+        border-style: none;
+        height: 50px;
+        width: 300px;
+        outline-style: none;
+        margin-top: 50px;
+        font-weight: 700;
+        box-shadow: 5px 5px 5px rgba(31, 31, 31, 0.2);
+        font-size: 1.3rem;
+        &:hover {
+            transform: scale(1.07);
+        }
+    }
+}

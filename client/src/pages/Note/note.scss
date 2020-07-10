@@ -1,0 +1,17 @@
+.dashboard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+    &__embed {
+        border-radius: 15px;
+    }
+    &__back-link {
+        text-decoration: none;
+        color: black;
+        align-self: flex-start;
+        margin: 20px;
+        font-size: 1.2rem;
+        margin-left: 80px;
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../global.scss';
+
+.header {
+    color: #E5E5E5;
+    background-color: #1E325C;
+    height: 15vh;
+    padding: 20px 0 20px 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Spartan';
+    &__logo {
+        @extend .header;
+    }
+    &__text {
+        margin-top: 22px;
+    }
+}

@@ -1,0 +1,14 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+
+    &__mic{
+        margin-top: 100px;
+        background-color: #e18e08;
+        width: 45%;
+        height: 500px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(31, 31, 31, 0.2);
+    }
+    
+}
